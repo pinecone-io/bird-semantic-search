@@ -11,7 +11,7 @@ import nltk
 @st.cache_resource
 def get_nltk_stuff():
     # download punkt
-    nltk.download('')
+    nltk.download('punkt_tab')
 
 get_nltk_stuff()
 
