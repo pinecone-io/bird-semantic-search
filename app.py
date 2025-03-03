@@ -9,18 +9,7 @@ import nltk
 from pinecone_text.sparse import BM25Encoder
 
 
-def get_nltk_stuff():
-    # download punkt
-    nltk.download('punkt_tab')
-    st.rerun()
 
-
-try:
-    bm_test = BM25Encoder()
-    bm_test.encode_queries("test")
-except LookupError as e:
-    get_nltk_stuff()
-    st.rerun()
 
 from query_db import *
 from search_metrics import *
@@ -334,7 +323,13 @@ def display_search_results(results, query, title, container, method):
 if query:
     dense_results = query_integrated_inference(query, "dense-bird-search")
     sparse_results = query_integrated_inference(query, "sparse-bird-search")
-    bm25_results = query_bm25(query, "bm25-bird-search")
+    try:
+        # issues with nltk downloading in cloud
+        bm25_results = query_bm25(query, "bm25-bird-search")
+    except LookupError as e:
+        nltk.download('punkt_tab')
+        st.rerun()
+
     cascading_results = conduct_cascading_retrieval(query)
     # Tabs for dense vs sparse results
     tab1, tab2, tab3, tab4, tab5 = st.tabs(["Keyword Search Results", "Dense Search Results", "Sparse Search Results", "Cascading Retrieval Results", "Metrics & Annotations"])
