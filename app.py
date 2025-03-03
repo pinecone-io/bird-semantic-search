@@ -5,6 +5,10 @@ from PIL import Image
 import pandas as pd
 import altair as chart
 from datetime import datetime
+import nltk
+from pinecone_text.sparse import BM25Encoder
+
+
 
 
 from query_db import *
@@ -18,11 +22,6 @@ st.title("Bird Search")
 st.logo("Pinecone-Primary-Logo-Black.png")
 # Search input
 # Quick description of the app, what you can do, and how to use it
-example_queries = [
-    "Woodpeckers that live in Illinois",
-    "Birds that are bad at flying",
-    "Colorful birds that live in the Midwestern United States"
-]
 
 
 
@@ -36,6 +35,13 @@ st.markdown("""
     If you'd like to log annotations, please make sure to click on "Log Annotations" after marking relevant results. If a result is not relevant, leave it unchecked.
             
     If all results are irrelevant, hit log annotations to log this fact! 
+            
+    Want to try some queries? Try these: 
+    - "Birds that live in Illinois"
+    - "Birds that are bad at flying"
+    - "really big birds"
+    - "Big bird red head black wings that pecks wood”
+    - "Colorful birds that live in the Midwestern United States"
             
     Have fun!
     """)
@@ -317,7 +323,13 @@ def display_search_results(results, query, title, container, method):
 if query:
     dense_results = query_integrated_inference(query, "dense-bird-search")
     sparse_results = query_integrated_inference(query, "sparse-bird-search")
-    bm25_results = query_bm25(query, "bm25-bird-search")
+    try:
+        # issues with nltk downloading in cloud
+        bm25_results = query_bm25(query, "bm25-bird-search")
+    except LookupError as e:
+        nltk.download('punkt_tab')
+        st.rerun()
+
     cascading_results = conduct_cascading_retrieval(query)
     # Tabs for dense vs sparse results
     tab1, tab2, tab3, tab4, tab5 = st.tabs(["Keyword Search Results", "Dense Search Results", "Sparse Search Results", "Cascading Retrieval Results", "Metrics & Annotations"])
