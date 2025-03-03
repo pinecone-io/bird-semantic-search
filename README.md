@@ -2,6 +2,8 @@
 
 A semantic search application on a corpus of North American Bird data from Wikipedia. This project demonstrates different search methodologies and allows users to evaluate them using Streamlit and Pinecone.
 
+[Try the live app here!](https://bird-semantic-search.streamlit.app/)
+
 # Bird Search App
 
 ## Overview
