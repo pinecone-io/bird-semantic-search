@@ -7,9 +7,13 @@ import altair as chart
 from datetime import datetime
 import nltk
 
-#loading to enable bm25
-nltk.download('punkt_tab')
 
+@st.cache_resource
+def get_nltk_stuff():
+    # download punkt
+    nltk.download('punkt_tab')
+
+get_nltk_stuff()
 
 from query_db import *
 from search_metrics import *
