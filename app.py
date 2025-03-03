@@ -5,6 +5,10 @@ from PIL import Image
 import pandas as pd
 import altair as chart
 from datetime import datetime
+import nltk
+
+#loading to enable bm25
+nltk.download('punkt_tab')
 
 
 from query_db import *
@@ -35,6 +39,8 @@ st.markdown("""
     Want to try some queries? Try these: 
     - "Birds that live in Illinois"
     - "Birds that are bad at flying"
+    - "really big birds"
+    - "Big bird red head black wings that pecks wood”
     - "Colorful birds that live in the Midwestern United States"
             
     Have fun!
