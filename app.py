@@ -6,14 +6,20 @@ import pandas as pd
 import altair as chart
 from datetime import datetime
 import nltk
+from pinecone_text.sparse import BM25Encoder
 
 
-@st.cache_resource
 def get_nltk_stuff():
     # download punkt
     nltk.download('punkt_tab')
+    st.rerun()
 
-get_nltk_stuff()
+
+try:
+    bm_test = BM25Encoder()
+except LookupError as e:
+    get_nltk_stuff()
+    st.rerun()
 
 from query_db import *
 from search_metrics import *
