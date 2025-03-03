@@ -17,6 +17,7 @@ def get_nltk_stuff():
 
 try:
     bm_test = BM25Encoder()
+    bm_test.encode_queries("test")
 except LookupError as e:
     get_nltk_stuff()
     st.rerun()
