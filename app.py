@@ -18,11 +18,6 @@ st.title("Bird Search")
 st.logo("Pinecone-Primary-Logo-Black.png")
 # Search input
 # Quick description of the app, what you can do, and how to use it
-example_queries = [
-    "Woodpeckers that live in Illinois",
-    "Birds that are bad at flying",
-    "Colorful birds that live in the Midwestern United States"
-]
 
 
 
@@ -36,6 +31,11 @@ st.markdown("""
     If you'd like to log annotations, please make sure to click on "Log Annotations" after marking relevant results. If a result is not relevant, leave it unchecked.
             
     If all results are irrelevant, hit log annotations to log this fact! 
+            
+    Want to try some queries? Try these: 
+    - "Birds that live in Illinois"
+    - "Birds that are bad at flying"
+    - "Colorful birds that live in the Midwestern United States"
             
     Have fun!
     """)
