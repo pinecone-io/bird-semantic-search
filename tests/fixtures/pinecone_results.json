@@ -1,0 +1,842 @@
+{
+  "red bird": {
+    "bm25": [
+      {
+        "id": "docRed-shouldered_hawk#chunk19",
+        "_id": "",
+        "_score": 0.657491148,
+        "score": 0.0,
+        "fields": {
+          "bird": "Red-shouldered_hawk",
+          "chunk_text": " Western birds may appear more red, while Florida birds are generally paler."
+        }
+      },
+      {
+        "id": "docRed_knot#chunk13",
+        "_id": "",
+        "_score": 0.656224489,
+        "score": 0.0,
+        "fields": {
+          "bird": "Red_knot",
+          "chunk_text": " The red knot has one of the longest migrations of any bird."
+        }
+      },
+      {
+        "id": "docRed-shouldered_hawk#chunk17",
+        "_id": "",
+        "_score": 0.640541,
+        "score": 0.0,
+        "fields": {
+          "bird": "Red-shouldered_hawk",
+          "chunk_text": " Red \"shoulders\" are visible when the birds are perched."
+        }
+      },
+      {
+        "id": "docRed-winged_blackbird#chunk238",
+        "_id": "",
+        "_score": 0.633436739,
+        "score": 0.0,
+        "fields": {
+          "bird": "Red-winged_blackbird",
+          "chunk_text": " However, in the Odawa language, an Anishinaabe language in southwestern Ontario and in Michigan, the bird is instead called either memeskoniinisi (\"bird with a red [patch on its wing]\") or memiskonigwiigaans (\"[bird with a] wing of small and very red [patch]\")."
+        }
+      },
+      {
+        "id": "docYellow-crowned_parrot#chunk19",
+        "_id": "",
+        "_score": 0.603996396,
+        "score": 0.0,
+        "fields": {
+          "bird": "Yellow-crowned_parrot",
+          "chunk_text": " The red and dark blue sections are often difficult to see when the bird is perched, while the red base of the outer tail feathers only infrequently can be seen under normal viewing conditions in the wild."
+        }
+      }
+    ],
+    "dense": [
+      {
+        "id": null,
+        "_id": "docRed-winged_blackbird#chunk2",
+        "_score": 0.8695956468582153,
+        "score": null,
+        "fields": {
+          "bird": "Red-winged_blackbird",
+          "chunk_text": "The red-winged blackbird (Agelaius phoeniceus) is a passerine bird of the family Icteridae found in most of North America and much of Central America."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRed-billed_tropicbird#chunk0",
+        "_score": 0.8642396926879883,
+        "score": null,
+        "fields": {
+          "bird": "Red-billed_tropicbird",
+          "chunk_text": "The red-billed tropicbird (Phaethon aethereus) is a tropicbird, one of three closely related species of seabird of tropical oceans."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRedwing#chunk0",
+        "_score": 0.8548889756202698,
+        "score": null,
+        "fields": {
+          "bird": "Redwing",
+          "chunk_text": "The redwing (Turdus iliacus) is a bird in the thrush family, Turdidae, native to Europe and the Palearctic, slightly smaller than the related song thrush."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRed-billed_tropicbird#chunk13",
+        "_score": 0.8544466495513916,
+        "score": null,
+        "fields": {
+          "bird": "Red-billed_tropicbird",
+          "chunk_text": " This bird is called the red-billed tropicbird due to its red bill and its location in the tropicbird genus."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRed-breasted_meadowlark#chunk0",
+        "_score": 0.8478513956069946,
+        "score": null,
+        "fields": {
+          "bird": "Red-breasted_meadowlark",
+          "chunk_text": "The red-breasted meadowlark (Leistes militaris) is a passerine bird in the New World family Icteridae. It was formerly named red-breasted blackbird but is not closely related to the red-winged blackbird group."
+        }
+      }
+    ],
+    "sparse": [
+      {
+        "id": null,
+        "_id": "docRed_avadavat#chunk1",
+        "_score": 8.884765625,
+        "score": null,
+        "fields": {
+          "bird": "Red_avadavat",
+          "chunk_text": "The red avadavat (Amandava amandava), red munia or strawberry finch, is a sparrow-sized bird of the family Estrildidae. It is found in the open fields and grasslands of tropical Asia and is popular as a cage bird due to the colourful plumage of the males in their breeding season. It breeds in the Indian Subcontinent in the monsoon season. The species name of amandava and the common name of avadavat are derived from the city of Ahmedabad in Gujarat, India, from where these birds were exported into the pet trade in former times."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRed-breasted_chat#chunk0",
+        "_score": 8.80859375,
+        "score": null,
+        "fields": {
+          "bird": "Red-breasted_chat",
+          "chunk_text": "The red-breasted chat (Granatellus venustus) is a species of bird in the family Cardinalidae, the cardinals or cardinal grosbeaks. It is endemic to Mexico."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRed_warbler#chunk0",
+        "_score": 8.578125,
+        "score": null,
+        "fields": {
+          "bird": "Red_warbler",
+          "chunk_text": "The red warbler (Cardellina rubra) is a small passerine bird of the New World warbler family Parulidae endemic to the highlands of Mexico, north of the Isthmus of Tehuantepec. It is closely related to, and forms a superspecies with, the pink-headed warbler of southern Mexico and Guatemala. There are three subspecies, found in disjunct populations, which differ in the color of their ear patch and in the brightness and tone of their body plumage. The adult is bright red, with a white or gray ear patch, depending on the subspecies; young birds are pinkish-brown, with a whitish ear patch and two pale wingbars."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRed-breasted_meadowlark#chunk0",
+        "_score": 8.53125,
+        "score": null,
+        "fields": {
+          "bird": "Red-breasted_meadowlark",
+          "chunk_text": "The red-breasted meadowlark (Leistes militaris) is a passerine bird in the New World family Icteridae. It was formerly named red-breasted blackbird but is not closely related to the red-winged blackbird group."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docNorthern_red_bishop#chunk1",
+        "_score": 8.376953125,
+        "score": null,
+        "fields": {
+          "bird": "Northern_red_bishop",
+          "chunk_text": "The northern red bishop or orange bishop (Euplectes franciscanus) is a small passerine bird in the family Ploceidae. It is part of the largest genus in the family with over 60 different species. Its sister species is the Southern red bishop (Euplectes orix). This species is most recognizable by the bright reddish orange with contrasting black plumage displayed by the breeding male. It is most common throughout the northern African continent but has also been introduced to areas in the western hemisphere."
+        }
+      }
+    ],
+    "cascading": [
+      {
+        "id": null,
+        "_id": "docRed-billed_tropicbird#chunk0",
+        "_score": 0.6977124214172363,
+        "score": null,
+        "fields": {
+          "bird": "Red-billed_tropicbird",
+          "chunk_text": "The red-billed tropicbird (Phaethon aethereus) is a tropicbird, one of three closely related species of seabird of tropical oceans."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRed-winged_blackbird#chunk2",
+        "_score": 0.6100127100944519,
+        "score": null,
+        "fields": {
+          "bird": "Red-winged_blackbird",
+          "chunk_text": "The red-winged blackbird (Agelaius phoeniceus) is a passerine bird of the family Icteridae found in most of North America and much of Central America."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRed-billed_tropicbird#chunk13",
+        "_score": 0.5611432790756226,
+        "score": null,
+        "fields": {
+          "bird": "Red-billed_tropicbird",
+          "chunk_text": " This bird is called the red-billed tropicbird due to its red bill and its location in the tropicbird genus."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRed-tailed_tropicbird#chunk43",
+        "_score": 0.5453589558601379,
+        "score": null,
+        "fields": {
+          "bird": "Red-tailed_tropicbird",
+          "chunk_text": "The red-tailed tropicbird is a strong flyer, and walks on land with difficulty using a shuffling gait."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRed-breasted_meadowlark#chunk0",
+        "_score": 0.5359006524085999,
+        "score": null,
+        "fields": {
+          "bird": "Red-breasted_meadowlark",
+          "chunk_text": "The red-breasted meadowlark (Leistes militaris) is a passerine bird in the New World family Icteridae. It was formerly named red-breasted blackbird but is not closely related to the red-winged blackbird group."
+        }
+      }
+    ]
+  },
+  "blue bird with long tail": {
+    "bm25": [
+      {
+        "id": "docBlue_mockingbird#chunk1",
+        "_id": "",
+        "_score": 0.475611,
+        "score": 0.0,
+        "fields": {
+          "bird": "Blue_mockingbird",
+          "chunk_text": "The blue mockingbird is uniformly blue on its back, tail, wings, head and underbelly. This color is a result of feather structure rather than pigment, and therefore can look gray in the shade. It has a black \"mask\" surrounding its reddish-brown eyes. It has a rather long, slightly graduated tail, and dark blue streaks over its breast. Its bill is long, thin and slightly curved, and its legs and feet are black."
+        }
+      },
+      {
+        "id": "docCanivet%27s_emerald#chunk24",
+        "_id": "",
+        "_score": 0.45407176,
+        "score": 0.0,
+        "fields": {
+          "bird": "Canivet%27s_emerald",
+          "chunk_text": " The tail is long and forked, blue-black or black with a blue gloss, and the central two or three pairs of feathers have dark brownish gray tips."
+        }
+      },
+      {
+        "id": "docRusset-crowned_motmot#chunk14",
+        "_id": "",
+        "_score": 0.45407176,
+        "score": 0.0,
+        "fields": {
+          "bird": "Russet-crowned_motmot",
+          "chunk_text": " Russet-crowned motmots have a long blue tail with a bare section near the tip of the longest central feathers, which creates a dark racket-shaped tip."
+        }
+      },
+      {
+        "id": "docCozumel_emerald#chunk17",
+        "_id": "",
+        "_score": 0.445312977,
+        "score": 0.0,
+        "fields": {
+          "bird": "Cozumel_emerald",
+          "chunk_text": " The tail is long and deeply forked, blue-black or black with a blue gloss, and the central two or three pairs of feathers have dark brownish gray tips."
+        }
+      },
+      {
+        "id": "docBlack-throated_magpie-jay#chunk2",
+        "_id": "",
+        "_score": 0.432050854,
+        "score": 0.0,
+        "fields": {
+          "bird": "Black-throated_magpie-jay",
+          "chunk_text": "This species is 58.5 to 76.5 cm (23.0 to 30.1 in) long, more than half of which is the tail, and weight is 225\u2013251 g (7.9\u20138.9 oz). Only a very few corvids, including the black-billed magpie, the red-billed blue magpie and the closely related white-throated magpie-jay, have a comparable tail length. The upperparts are blue with white tips to the tail feathers; the underparts are white. The bill, legs, head, and conspicuous crest are black except for a pale blue crescent over the eyes and a patch under the eye. In juveniles, the crest has a white tip and the patch below the eye is smaller and darker blue than in adults. In most birds, the throat and chest are also black, but some in the southern part of the range have various amounts of white there."
+        }
+      }
+    ],
+    "dense": [
+      {
+        "id": null,
+        "_id": "docIndian_peafowl#chunk17",
+        "_score": 0.8803613781929016,
+        "score": null,
+        "fields": {
+          "bird": "Indian_peafowl",
+          "chunk_text": " It has a long blue neck with scaly bronze-green feathers with black and copper markings in the back."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docCanivet%27s_emerald#chunk24",
+        "_score": 0.867996871471405,
+        "score": null,
+        "fields": {
+          "bird": "Canivet%27s_emerald",
+          "chunk_text": " The tail is long and forked, blue-black or black with a blue gloss, and the central two or three pairs of feathers have dark brownish gray tips."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docCozumel_emerald#chunk17",
+        "_score": 0.8669244647026062,
+        "score": null,
+        "fields": {
+          "bird": "Cozumel_emerald",
+          "chunk_text": " The tail is long and deeply forked, blue-black or black with a blue gloss, and the central two or three pairs of feathers have dark brownish gray tips."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docBat_falcon#chunk13",
+        "_score": 0.8604082465171814,
+        "score": null,
+        "fields": {
+          "bird": "Bat_falcon",
+          "chunk_text": " They have long wings and a longish tail with a square tip."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docPuerto_Rican_emerald#chunk21",
+        "_score": 0.8539519309997559,
+        "score": null,
+        "fields": {
+          "bird": "Puerto_Rican_emerald",
+          "chunk_text": " The tail is forked and shining steely blue."
+        }
+      }
+    ],
+    "sparse": [
+      {
+        "id": null,
+        "_id": "docTurquoise-browed_motmot#chunk1",
+        "_score": 14.768310546875,
+        "score": null,
+        "fields": {
+          "bird": "Turquoise-browed_motmot",
+          "chunk_text": "The bird is 34 cm (13 in) long and weighs 65 g (2.3 oz). It has a mostly grey-blue body with a rufous back and belly. There is a bright blue strip above the eye and a blue-bordered black patch on the throat. The flight feathers and upperside of the tail are blue. The tips of the tail feathers are shaped like rackets and the bare feather shafts are longer than in other motmots. Although it is often said that motmots pluck the barbs off their tail to create the racketed shape, this is not true; the barbs are weakly attached and fall off due to abrasion with substrates and with routine preening."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docLong-tailed_manakin#chunk0",
+        "_score": 13.791015625,
+        "score": null,
+        "fields": {
+          "bird": "Long-tailed_manakin",
+          "chunk_text": "The long-tailed manakin (Chiroxiphia linearis) is a species of bird in the family Pipridae native to Central America where it inhabits both wet and dry tropical and subtropical forests. It is a small, plump bird about 10 centimetres (4 in) long. Males have black plumage with a blue back and a red crown, and the two central tail feathers are greatly elongated. Females and juveniles are olive-green with paler underparts. At breeding time, males are involved in a cooperative lekking behaviour with a complex coordinated courtship dance. This is a fairly common species with a wide range, and the International Union for Conservation of Nature has rated its conservation status as being of \"least concern\"."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docSt._Vincent_parrot#chunk1",
+        "_score": 13.712646484375,
+        "score": null,
+        "fields": {
+          "bird": "St._Vincent_parrot",
+          "chunk_text": "The bird is a 40 centimetres (16 in) long, mostly green, multi-colored amazon parrot with a yellowish white, blue and green head, greenish-bronze upperparts, grey feet, reddish eye, and violet blue-green wings. Its tail feathers are blue with broad yellow tips. There is a less yellow-brown morph and a less common green morph. Both sexes are similar. The young has lighter plumage and brown iris."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docRosy-faced_lovebird#chunk3",
+        "_score": 12.95947265625,
+        "score": null,
+        "fields": {
+          "bird": "Rosy-faced_lovebird",
+          "chunk_text": "The rosy-faced lovebird is a fairly small bird, 17\u201318 cm (6.7\u20137.1 in) long, with an average wing length of 106 mm (4.2 in) and tail length of 44\u201352 mm (1.7\u20132.0 in). Wild birds are mostly green with a blue rump. The face and throat are pink, darkest on the forehead and above the eye. The bill is horn-coloured, the iris is brown, and the legs and feet are grey. The pink of the A. r. roseicollis is lighter than that of the A. r. catumbella. Juvenile birds have a pale pink face and throat, a greenish fore crown and crown, and the beak has a brownish base."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docPurplish-backed_jay#chunk1",
+        "_score": 12.3759765625,
+        "score": null,
+        "fields": {
+          "bird": "Purplish-backed_jay",
+          "chunk_text": "The purplish-backed jay is a purple and black bird with a powerful bill and a long tail. It varies in length between 35 and 41 cm (14 and 16 in), with males usually larger than females. The head, neck, upper mantle, and underparts are black, and there is a small ruffled erectile crest on the forehead. The underside of the wings and the tail are also blackish, while the remainder of the plumage is purplish-blue, being brightest on the lower part of the mantle and the rump. The bill is black, and the irises and legs are yellow."
+        }
+      }
+    ],
+    "cascading": [
+      {
+        "id": null,
+        "_id": "docLong-tailed_manakin#chunk0",
+        "_score": 0.7935066819190979,
+        "score": null,
+        "fields": {
+          "bird": "Long-tailed_manakin",
+          "chunk_text": "The long-tailed manakin (Chiroxiphia linearis) is a species of bird in the family Pipridae native to Central America where it inhabits both wet and dry tropical and subtropical forests. It is a small, plump bird about 10 centimetres (4 in) long. Males have black plumage with a blue back and a red crown, and the two central tail feathers are greatly elongated. Females and juveniles are olive-green with paler underparts. At breeding time, males are involved in a cooperative lekking behaviour with a complex coordinated courtship dance. This is a fairly common species with a wide range, and the International Union for Conservation of Nature has rated its conservation status as being of \"least concern\"."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docLong-tailed_jaeger#chunk0",
+        "_score": 0.7232513427734375,
+        "score": null,
+        "fields": {
+          "bird": "Long-tailed_jaeger",
+          "chunk_text": "The long-tailed skua or long-tailed jaeger (Stercorarius longicaudus) is a seabird in the skua family Stercorariidae."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow-rumped_cacique#chunk4",
+        "_score": 0.7084753513336182,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-rumped_cacique",
+          "chunk_text": "The male is on average 28 centimetres (11 in) long and weighs about 104 grams (3.7 oz), with the female 23 centimetres (9.1 in) long and weighing approximately 60 grams (2.1 oz). The yellow-rumped cacique is a slim bird, with a long tail, blue eyes, and a pale yellow pointed bill. It has mainly black plumage, apart from a bright yellow rump, tail base, lower belly and wing \"epaulets\". The female is duller black than the male, and the juvenile bird resembles the female, but has dark eyes and a brown bill base."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docPurplish-backed_jay#chunk1",
+        "_score": 0.6675167083740234,
+        "score": null,
+        "fields": {
+          "bird": "Purplish-backed_jay",
+          "chunk_text": "The purplish-backed jay is a purple and black bird with a powerful bill and a long tail. It varies in length between 35 and 41 cm (14 and 16 in), with males usually larger than females. The head, neck, upper mantle, and underparts are black, and there is a small ruffled erectile crest on the forehead. The underside of the wings and the tail are also blackish, while the remainder of the plumage is purplish-blue, being brightest on the lower part of the mantle and the rump. The bill is black, and the irises and legs are yellow."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docBlue-tailed_hummingbird#chunk4",
+        "_score": 0.6345212459564209,
+        "score": null,
+        "fields": {
+          "bird": "Blue-tailed_hummingbird",
+          "chunk_text": "The blue-tailed hummingbird is 9 to 10 cm (3.5 to 3.9 in) long. One male specimen weighed 3.9 g (0.14 oz) and females weigh about 4.5 g (0.16 oz). Both sexes of all subspecies have a black bill with a reddish base to the mandible. Males of the nominate subspecies have a deep metallic green crown and back, a dull purplish bronze rump, and dark metallic bluish uppertail coverts. Their primaries and secondaries are chestnut and show as a patch on the closed wing. Their tail is dark metallic violet blue. Their underparts are mostly bright metallic green with dull steel blue undertail coverts. Females are similar to males but duller. Their rump is less purplish and their underparts' feathers usually have narrow whitish margins. Their belly has some dull buffy whitish mixed in and their undertail coverts are grayish."
+        }
+      }
+    ]
+  },
+  "small yellow bird that sings": {
+    "bm25": [
+      {
+        "id": "docTennessee_warbler#chunk4",
+        "_id": "",
+        "_score": 0.370694727,
+        "score": 0.0,
+        "fields": {
+          "bird": "Tennessee_warbler",
+          "chunk_text": "This bird can be confused with the red-eyed vireo, which is larger, moves more deliberately and sings almost constantly. The orange-crowned warbler can also look similar, but lacks the white eyebrow, is greyer-brown above and has yellow undertail coverts."
+        }
+      },
+      {
+        "id": "docGray_catbird#chunk11",
+        "_id": "",
+        "_score": 0.356150031,
+        "score": 0.0,
+        "fields": {
+          "bird": "Gray_catbird",
+          "chunk_text": "In contrast to the many songbirds that choose a prominent perch from which to sing, the catbird often elects to sing from inside a bush or small tree, where it is obscured from view by the foliage."
+        }
+      },
+      {
+        "id": "docYellow_rail#chunk0",
+        "_id": "",
+        "_score": 0.354029119,
+        "score": 0.0,
+        "fields": {
+          "bird": "Yellow_rail",
+          "chunk_text": "The yellow rail (Coturnicops noveboracensis) is a small secretive marsh bird of the family Rallidae that is found in North America."
+        }
+      },
+      {
+        "id": "docBlack-headed_grosbeak#chunk18",
+        "_id": "",
+        "_score": 0.351698577,
+        "score": 0.0,
+        "fields": {
+          "bird": "Black-headed_grosbeak",
+          "chunk_text": "Black-headed grosbeaks frequently sing from prominent perches. Both the male and female sing, but have different songs, and both are known to sing from the nest while incubating. When trying to court a female, males fly with their wings and tails spread. They forage in the foliage, on the ground, or in low vegetation and are prominent berry eaters. When feeding the chicks sing to their mother, rustling wings and displaying their yellow under-feathers (see image)."
+        }
+      },
+      {
+        "id": "docYellow-fronted_canary#chunk1",
+        "_id": "",
+        "_score": 0.329473078,
+        "score": 0.0,
+        "fields": {
+          "bird": "Yellow-fronted_canary",
+          "chunk_text": "The yellow-fronted canary (Crithagra mozambica) is a small passerine bird in the finch family. It is sometimes known in aviculture as the green singing finch or the \u2018\u2019\u2019green singer\u2019\u2019\u2019."
+        }
+      }
+    ],
+    "dense": [
+      {
+        "id": null,
+        "_id": "docYellow-throated_vireo#chunk0",
+        "_score": 0.8844668865203857,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-throated_vireo",
+          "chunk_text": "The yellow-throated vireo (Vireo flavifrons) is a small American songbird."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow-fronted_canary#chunk1",
+        "_score": 0.878775954246521,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-fronted_canary",
+          "chunk_text": "The yellow-fronted canary (Crithagra mozambica) is a small passerine bird in the finch family. It is sometimes known in aviculture as the green singing finch or the \u2018\u2019\u2019green singer\u2019\u2019\u2019."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow-throated_euphonia#chunk9",
+        "_score": 0.8682998418807983,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-throated_euphonia",
+          "chunk_text": "The yellow-throated euphonia is a small, short-billed, short-tailed arboreal passerine with pointed wings."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docSan_Andres_vireo#chunk1",
+        "_score": 0.8671486377716064,
+        "score": null,
+        "fields": {
+          "bird": "San_Andres_vireo",
+          "chunk_text": "It is a small bird, 12.5 cm in length. It is olive-green above and whitish or pale yellow below. It has two white bars on the wing, pale edges to the flight-feathers and a pale yellow stripe between the bill and eye. The eye is grey-brown. It has several songs and calls, producing a one-syllable chattering, a repeated two-syllable song and a three-syllable song."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow-bellied_siskin#chunk2",
+        "_score": 0.8665713667869568,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-bellied_siskin",
+          "chunk_text": "The yellow-bellied siskin is a small bird, 10.5 cm in length and weighing 12 g. The male is entirely black except for a bright yellow belly, tail sides and wing patches. The female is dark olive green above and has pale yellow underparts which become brighter on the belly. She has a blackish tail and wings and also has bright yellow primary wing patches and tail sides. Young birds resemble the female, but have dusky fringes to the upperpart feathers and smaller yellow wing and tail patches. The song of this bird is a pleasant chattering twitter, and the call is a sharp pyee."
+        }
+      }
+    ],
+    "sparse": [
+      {
+        "id": null,
+        "_id": "docYellow_rail#chunk0",
+        "_score": 12.259033203125,
+        "score": null,
+        "fields": {
+          "bird": "Yellow_rail",
+          "chunk_text": "The yellow rail (Coturnicops noveboracensis) is a small secretive marsh bird of the family Rallidae that is found in North America."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow_tyrannulet#chunk1",
+        "_score": 11.73828125,
+        "score": null,
+        "fields": {
+          "bird": "Yellow_tyrannulet",
+          "chunk_text": "The yellow tyrannulet (Capsiempis flaveola) is a small passerine bird in subfamily Elaeniinae of family Tyrannidae, the tyrant flycatchers. It is found in Costa Rica, Nicaragua, Panama, and in every mainland South American country except Chile and Uruguay."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow-bellied_siskin#chunk2",
+        "_score": 11.634765625,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-bellied_siskin",
+          "chunk_text": "The yellow-bellied siskin is a small bird, 10.5 cm in length and weighing 12 g. The male is entirely black except for a bright yellow belly, tail sides and wing patches. The female is dark olive green above and has pale yellow underparts which become brighter on the belly. She has a blackish tail and wings and also has bright yellow primary wing patches and tail sides. Young birds resemble the female, but have dusky fringes to the upperpart feathers and smaller yellow wing and tail patches. The song of this bird is a pleasant chattering twitter, and the call is a sharp pyee."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow-bellied_siskin#chunk1",
+        "_score": 11.568359375,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-bellied_siskin",
+          "chunk_text": "The yellow-bellied siskin (Spinus xanthogastrus) is a small passerine bird in the finch family Fringillidae. It breeds from Costa Rica south to southern Ecuador, central Bolivia and the highlands of northwestern Venezuela."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow-bellied_elaenia#chunk1",
+        "_score": 11.388671875,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-bellied_elaenia",
+          "chunk_text": "The yellow-bellied elaenia (Elaenia flavogaster) is a small bird in subfamily Elaeniinae of family Tyrannidae, the tyrant flycatchers. It is found in Mexico, in every Central American country, in every mainland South American country except Chile, on Trinidad and Tobago, and on several islands in the Lesser Antilles."
+        }
+      }
+    ],
+    "cascading": [
+      {
+        "id": null,
+        "_id": "docYellow-bellied_siskin#chunk2",
+        "_score": 0.8180549740791321,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-bellied_siskin",
+          "chunk_text": "The yellow-bellied siskin is a small bird, 10.5 cm in length and weighing 12 g. The male is entirely black except for a bright yellow belly, tail sides and wing patches. The female is dark olive green above and has pale yellow underparts which become brighter on the belly. She has a blackish tail and wings and also has bright yellow primary wing patches and tail sides. Young birds resemble the female, but have dusky fringes to the upperpart feathers and smaller yellow wing and tail patches. The song of this bird is a pleasant chattering twitter, and the call is a sharp pyee."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow-throated_vireo#chunk0",
+        "_score": 0.807354748249054,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-throated_vireo",
+          "chunk_text": "The yellow-throated vireo (Vireo flavifrons) is a small American songbird."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow-throated_warbler#chunk0",
+        "_score": 0.7724109292030334,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-throated_warbler",
+          "chunk_text": "The yellow-throated warbler (Setophaga dominica) is a small migratory songbird species in the New World warbler family (Parulidae) found in temperate North America."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docSan_Andres_vireo#chunk1",
+        "_score": 0.7125728130340576,
+        "score": null,
+        "fields": {
+          "bird": "San_Andres_vireo",
+          "chunk_text": "It is a small bird, 12.5 cm in length. It is olive-green above and whitish or pale yellow below. It has two white bars on the wing, pale edges to the flight-feathers and a pale yellow stripe between the bill and eye. The eye is grey-brown. It has several songs and calls, producing a one-syllable chattering, a repeated two-syllable song and a three-syllable song."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docYellow-bellied_elaenia#chunk1",
+        "_score": 0.7043436765670776,
+        "score": null,
+        "fields": {
+          "bird": "Yellow-bellied_elaenia",
+          "chunk_text": "The yellow-bellied elaenia (Elaenia flavogaster) is a small bird in subfamily Elaeniinae of family Tyrannidae, the tyrant flycatchers. It is found in Mexico, in every Central American country, in every mainland South American country except Chile, on Trinidad and Tobago, and on several islands in the Lesser Antilles."
+        }
+      }
+    ]
+  },
+  "birds in Illinois": {
+    "bm25": [
+      {
+        "id": "docPassenger_pigeon#chunk355",
+        "_id": "",
+        "_score": 0.640541077,
+        "score": 0.0,
+        "fields": {
+          "bird": "Passenger_pigeon",
+          "chunk_text": " The reliability of accounts after the Ohio, Illinois, and Indiana birds are in question."
+        }
+      },
+      {
+        "id": "docSnowy_owl#chunk27",
+        "_id": "",
+        "_score": 0.567599893,
+        "score": 0.0,
+        "fields": {
+          "bird": "Snowy_owl",
+          "chunk_text": " Lawrence Island, and in Illinois."
+        }
+      },
+      {
+        "id": "docBarred_owl#chunk344",
+        "_id": "",
+        "_score": 0.560208678,
+        "score": 0.0,
+        "fields": {
+          "bird": "Barred_owl",
+          "chunk_text": " Many different forest bird species (most frequently acadian flycatchers and indigo buntings in Missouri and Illinois) were hunted."
+        }
+      },
+      {
+        "id": "docCooper%27s_hawk#chunk1154",
+        "_id": "",
+        "_score": 0.537729263,
+        "score": 0.0,
+        "fields": {
+          "bird": "Cooper%27s_hawk",
+          "chunk_text": " Cooper's hawks, along with great horned owls, had the greatest seroprevalence of Avipoxvirus among several raptorial birds in Illinois."
+        }
+      },
+      {
+        "id": "docGreater_prairie-chicken#chunk16",
+        "_id": "",
+        "_score": 0.530532956,
+        "score": 0.0,
+        "fields": {
+          "bird": "Greater_prairie-chicken",
+          "chunk_text": " It was a popular game bird, and like many prairie birds, which have also suffered massive habitat loss, it is now on the verge of extinction, with the wild bird population at around 200 in Illinois in 2019."
+        }
+      }
+    ],
+    "dense": [
+      {
+        "id": null,
+        "_id": "docBarred_owl#chunk344",
+        "_score": 0.8513786196708679,
+        "score": null,
+        "fields": {
+          "bird": "Barred_owl",
+          "chunk_text": " Many different forest bird species (most frequently acadian flycatchers and indigo buntings in Missouri and Illinois) were hunted."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docGreater_prairie-chicken#chunk16",
+        "_score": 0.8508529663085938,
+        "score": null,
+        "fields": {
+          "bird": "Greater_prairie-chicken",
+          "chunk_text": " It was a popular game bird, and like many prairie birds, which have also suffered massive habitat loss, it is now on the verge of extinction, with the wild bird population at around 200 in Illinois in 2019."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docShort-tailed_hawk#chunk19",
+        "_score": 0.8499447107315063,
+        "score": null,
+        "fields": {
+          "bird": "Short-tailed_hawk",
+          "chunk_text": " In Florida, icterids\u2014namely the red-winged blackbird (Agelaius phoeniceus), the common grackle (Quiscalus quiscula), the boat-tailed grackle (Quiscalus major) and the eastern meadowlark (Sturnella magna)\u2014make up the bulk of the prey."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docCooper%27s_hawk#chunk1154",
+        "_score": 0.8422686457633972,
+        "score": null,
+        "fields": {
+          "bird": "Cooper%27s_hawk",
+          "chunk_text": " Cooper's hawks, along with great horned owls, had the greatest seroprevalence of Avipoxvirus among several raptorial birds in Illinois."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docSmith%27s_longspur#chunk3",
+        "_score": 0.8354719877243042,
+        "score": null,
+        "fields": {
+          "bird": "Smith%27s_longspur",
+          "chunk_text": "This bird breeds in open grassy areas near the tree line in northern Canada and Alaska. In winter, they congregate in open fields, including airports, in the south-central United States. Migration is elliptical, with northbound birds staging in Illinois in the spring and southbound birds flying over the Great Plains in the fall."
+        }
+      }
+    ],
+    "sparse": [
+      {
+        "id": null,
+        "_id": "docCooper%27s_hawk#chunk1154",
+        "_score": 9.8017578125,
+        "score": null,
+        "fields": {
+          "bird": "Cooper%27s_hawk",
+          "chunk_text": " Cooper's hawks, along with great horned owls, had the greatest seroprevalence of Avipoxvirus among several raptorial birds in Illinois."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docGreater_prairie-chicken#chunk16",
+        "_score": 9.501953125,
+        "score": null,
+        "fields": {
+          "bird": "Greater_prairie-chicken",
+          "chunk_text": " It was a popular game bird, and like many prairie birds, which have also suffered massive habitat loss, it is now on the verge of extinction, with the wild bird population at around 200 in Illinois in 2019."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docGreater_prairie-chicken#chunk29",
+        "_score": 9.2919921875,
+        "score": null,
+        "fields": {
+          "bird": "Greater_prairie-chicken",
+          "chunk_text": "The small size of some isolated prairie-chicken populations in the Eastern portion of the range resulted in a population bottleneck, which reduced the genetic diversity and ultimately survival of offspring. In Illinois, wildlife management included the \"genetic rescue\" of small and potentially inbred populations by introducing birds from other areas."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docCooper%27s_hawk#chunk1160",
+        "_score": 9.1044921875,
+        "score": null,
+        "fields": {
+          "bird": "Cooper%27s_hawk",
+          "chunk_text": " A high balance of the bacterial disease Mycoplasma gallisepticum, common to birds who frequent bird feeders, was found in Cooper's hawks (transmitted from their prey) studied in Illinois (the highest of any six raptor species studied) however effective antibodies were found and no external infection was noted."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docPassenger_pigeon#chunk355",
+        "_score": 8.4052734375,
+        "score": null,
+        "fields": {
+          "bird": "Passenger_pigeon",
+          "chunk_text": " The reliability of accounts after the Ohio, Illinois, and Indiana birds are in question."
+        }
+      }
+    ],
+    "cascading": [
+      {
+        "id": null,
+        "_id": "docCooper%27s_hawk#chunk1154",
+        "_score": 0.6726978421211243,
+        "score": null,
+        "fields": {
+          "bird": "Cooper%27s_hawk",
+          "chunk_text": " Cooper's hawks, along with great horned owls, had the greatest seroprevalence of Avipoxvirus among several raptorial birds in Illinois."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docGreater_prairie-chicken#chunk16",
+        "_score": 0.6698533892631531,
+        "score": null,
+        "fields": {
+          "bird": "Greater_prairie-chicken",
+          "chunk_text": " It was a popular game bird, and like many prairie birds, which have also suffered massive habitat loss, it is now on the verge of extinction, with the wild bird population at around 200 in Illinois in 2019."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docBarred_owl#chunk344",
+        "_score": 0.6559759378433228,
+        "score": null,
+        "fields": {
+          "bird": "Barred_owl",
+          "chunk_text": " Many different forest bird species (most frequently acadian flycatchers and indigo buntings in Missouri and Illinois) were hunted."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docGreater_prairie-chicken#chunk29",
+        "_score": 0.5880619883537292,
+        "score": null,
+        "fields": {
+          "bird": "Greater_prairie-chicken",
+          "chunk_text": "The small size of some isolated prairie-chicken populations in the Eastern portion of the range resulted in a population bottleneck, which reduced the genetic diversity and ultimately survival of offspring. In Illinois, wildlife management included the \"genetic rescue\" of small and potentially inbred populations by introducing birds from other areas."
+        }
+      },
+      {
+        "id": null,
+        "_id": "docSmith%27s_longspur#chunk3",
+        "_score": 0.5703558325767517,
+        "score": null,
+        "fields": {
+          "bird": "Smith%27s_longspur",
+          "chunk_text": "This bird breeds in open grassy areas near the tree line in northern Canada and Alaska. In winter, they congregate in open fields, including airports, in the south-central United States. Migration is elliptical, with northbound birds staging in Illinois in the spring and southbound birds flying over the Great Plains in the fall."
+        }
+      }
+    ]
+  }
+}
