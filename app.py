@@ -6,7 +6,6 @@ import pandas as pd
 import altair as chart
 from datetime import datetime
 import nltk
-from pinecone_text.sparse import BM25Encoder
 
 
 
@@ -29,22 +28,45 @@ st.markdown("""
     ## Welcome to Bird Search!
             
     This app allows you to search for birds using natural language queries across different search methodologies.
-            
-    You can then log annotations for the search results, based on how many results are relevant (mean average precision) and how many unique relevant birds are returned.
-            
-    If you'd like to log annotations, please make sure to click on "Log Annotations" after marking relevant results. If a result is not relevant, leave it unchecked.
-            
-    If all results are irrelevant, hit log annotations to log this fact! 
-            
-    Want to try some queries? Try these: 
-    - "Birds that live in Illinois"
-    - "Birds that are bad at flying"
-    - "really big birds"
-    - "Big bird red head black wings that pecks wood”
-    - "Colorful birds that live in the Midwestern United States"
-            
-    Have fun!
+""")
+
+with st.expander("Why Different Search Methods?"):
+    st.markdown("""
+    Each search method works in a unique way:
+    - **Keyword Search**: Finds birds based on exact word matches (like Google in the early days)
+    - **Dense Search**: Understands meaning even with different words (like asking "large birds" and finding "massive avians")
+    - **Sparse Search**: Balances exact keywords and some understanding of meaning
+    - **Cascading Retrieval**: Our advanced approach that combines methods for optimal results
     """)
+
+with st.expander("How to Use This App:"):
+    st.markdown("""
+    1. Enter your query about birds in the search box above
+    2. Browse results across the different tabs
+    3. Mark results as relevant by checking the boxes. Results that are un-marked are considered irrelevant by default
+    4. Click "Log Annotations" to record your evaluations, on each tab.
+    5. View the Metrics tab to see which search method performed best
+    """)
+
+with st.expander("Why Annotate Results?"):
+    st.markdown("""
+    Your annotations help us understand which search methods work best for different types of questions! The app calculates:
+    - **Mean Average Precision**: How well each method ranks relevant results higher than irrelevant results, across queries.
+    - **Relevant Birds**: How many unique relevant bird species each method finds. This is an example of a "buisiness" metric that, while not objective,
+        is a good proxy for how novel the search results are per query
+    
+    """)
+
+with st.expander("Example Queries to Try:"):
+    st.markdown("""
+    - **"Birds that live in Illinois"**, a query that works great for keyword, sparse searches.
+    - **"Birds that are bad at flying"**, a query that works great for dense searches, but not so much for keyword.
+    - **"descriptions of really large birds"**, a query that works great for cascading, exposing the strengths of the reranker in re-prioritizing results.
+    - **"Big bird red head black wings that pecks wood"**, a good example for finding "woodpeckers" without using that word!
+    - **"Colorful birds that live in the Midwestern United States"**, a fun query that works alright across all methods, and exposes the weaknesses of a simple chunking method.
+    """)
+
+st.markdown("Have fun exploring!")
 
 
 
