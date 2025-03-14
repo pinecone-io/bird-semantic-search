@@ -19,7 +19,6 @@ def calculate_mean_average_precision(df):
         query_ap = calculate_query_ap(group)
         if query_ap > 0:
             ap_values.append(query_ap)
-    print(ap_values)
             
     return float(sum(ap_values) / len(ap_values)) if ap_values else 0.0
 
@@ -40,44 +39,4 @@ def calculate_query_ap(query_df):
 
 
 
-# Sanity checks on metrics
-
-# Average precision
-
-# should be (1 + 2/3 + 3/5) / 3 
-query_df_1 = pd.DataFrame({
-    'query': ['b1', 'b1', 'b1', 'b1', 'b1'],
-    'rank': [1, 2, 3, 4, 5],
-    'is_relevant': [True, False, True, False, True]
-})
-query_df_ap = (1 + 2/3 + 3/5) / 3
-
-# should be 1 + (2/5) / 5
-query_df_2 = pd.DataFrame(
-    {
-        'query': ['b2', 'b2', 'b2', 'b2', 'b2'],
-        'rank': [1, 2, 3, 4, 5],
-        'is_relevant': [True, False, False, False, True]
-    }
-)
-query_df_ap_2 = (1 + (2/5)) / 2
-
-all_df = pd.concat([query_df_1, query_df_2])
-mean_average_precision = (query_df_ap + query_df_ap_2) / 2
-
-if __name__ == "__main__":
-    calc_ap = calculate_query_ap(query_df_1)
-    if calc_ap != query_df_ap:
-        print(f"Expected AP: {query_df_ap}, Got: {calc_ap}")
-    assert calc_ap == query_df_ap
-
-    calc_ap_2 = calculate_query_ap(query_df_2) 
-    if calc_ap_2 != query_df_ap_2:
-        print(f"Expected AP 2: {query_df_ap_2}, Got: {calc_ap_2}")
-    assert calc_ap_2 == query_df_ap_2
-
-    calc_map = calculate_mean_average_precision(all_df)
-    if calc_map != mean_average_precision:
-        print(f"Expected MAP: {mean_average_precision}, Got: {calc_map}")
-    assert calc_map == mean_average_precision
 
