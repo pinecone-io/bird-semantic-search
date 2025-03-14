@@ -165,40 +165,39 @@ def visualize_metrics(query=None):
     
     st.altair_chart(c)
     
-    # Show raw metrics in a table if details are requested
-    if show_details:
-        with st.expander("Detailed Metrics", expanded=True):
+    # show results in a table
+    st.subheader("Metrics Comparison")
             # Create metrics comparison table dynamically
-            metrics_comparison_data = {
+    metrics_comparison_data = {
                 'Metric': ['Relevant Birds', 'Mean Average Precision']
-            }
+    }
             
-            for method in all_methods:
+    for method in all_methods:
                 metrics_comparison_data[method] = [
                     int(method_metrics[method]['unique_relevant_birds']),
                     f"{float(method_metrics[method]['mean_average_precision']):.3f}"
                 ]
             
-            metrics_comparison = pd.DataFrame(metrics_comparison_data)
-            st.table(metrics_comparison)
+    metrics_comparison = pd.DataFrame(metrics_comparison_data)
+    st.table(metrics_comparison)
             
             # Show query distribution
-            if metric_query == "All Queries":
-                st.subheader("Annotations per Query")
-                query_counts = st.session_state.annotations_df.groupby(['query', 'method']).size().reset_index(name='count')
+    if metric_query == "All Queries":
+        st.subheader("Annotations per Query")
+        query_counts = st.session_state.annotations_df.groupby(['query', 'method']).size().reset_index(name='count')
                 
-                # Ensure count column is integer
-                query_counts['count'] = query_counts['count'].astype(int)
+        # Ensure count column is integer
+        query_counts['count'] = query_counts['count'].astype(int)
                 
-                # Create a grouped bar chart of queries
-                query_chart = chart.Chart(query_counts).mark_bar().encode(
+        # Create a grouped bar chart of queries
+        query_chart = chart.Chart(query_counts).mark_bar().encode(
                     x=chart.X('query:N', title='Query'),
                     y=chart.Y('count:Q', title='Number of Annotations'),
                     color='method:N',
                     column='method:N'
-                ).properties(width=min(80 * len(all_queries), 400))
+        ).properties(width=min(80 * len(all_queries), 400))
                 
-                st.altair_chart(query_chart)
+        st.altair_chart(query_chart)
 
 
 
