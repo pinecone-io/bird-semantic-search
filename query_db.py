@@ -6,10 +6,10 @@ import streamlit as st
 # Initialize Pinecone and key parameters
 TOP_K = 5
 bm25_file_name = "bm25_birds.json"
-pc = Pinecone(api_key=st.secrets["pinecone_api_key"])
 
 
 def query_integrated_inference(query, index_name, namespace="bird-search"):
+    pc = Pinecone(api_key=st.secrets["pinecone_api_key"])
     index = pc.Index(index_name)
     results = index.search_records(
         namespace=namespace,
@@ -23,6 +23,7 @@ def query_integrated_inference(query, index_name, namespace="bird-search"):
     return results['result']['hits'] # Access hits from result object
 
 def query_rerank_integrated_inference(query, index_name, namespace="bird-search"):
+    pc = Pinecone(api_key=st.secrets["pinecone_api_key"])
     index=pc.Index(index_name)
     sr = index.search(
         namespace=namespace,
@@ -39,7 +40,7 @@ def query_rerank_integrated_inference(query, index_name, namespace="bird-search"
     )
     return sr['result']['hits']
 def query_bm25(query, index_name, namespace="bird-search"):
-
+    pc = Pinecone(api_key=st.secrets["pinecone_api_key"])
     index = pc.Index(index_name)
 
     bm25 = BM25Encoder().load(path=bm25_file_name)
