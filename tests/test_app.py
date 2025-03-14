@@ -18,22 +18,15 @@ def mock_query_functions(monkeypatch, mock_pinecone_results):
     # this lets us just look at the mock data instead of the actual pinecone results
     # to avoid issues with running in actions or elsewhere
     
-    def mock_query_integrated_inference(query, index_name):
-        if query in mock_pinecone_results and index_name == "dense-bird-search":
-            return mock_pinecone_results[query]["dense"]
-        elif query in mock_pinecone_results and index_name == "sparse-bird-search":
-            return mock_pinecone_results[query]["sparse"]
-        return []
+    def mock_query_integrated_inference(query):
+        return mock_pinecone_results[query]["dense"]
     
-    def mock_query_bm25(query, index_name):
-        if query in mock_pinecone_results:
-            return mock_pinecone_results[query]["bm25"]
-        return []
+    
+    def mock_query_bm25(query):
+        return mock_pinecone_results[query]["bm25"]
     
     def mock_conduct_cascading_retrieval(query):
-        if query in mock_pinecone_results:
-            return mock_pinecone_results[query]["cascading"]
-        return []
+        return mock_pinecone_results[query]["cascading"]
     
     monkeypatch.setattr("app.query_integrated_inference", mock_query_integrated_inference)
     monkeypatch.setattr("app.query_bm25", mock_query_bm25)
