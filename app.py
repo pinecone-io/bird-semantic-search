@@ -16,12 +16,12 @@ from search_metrics import *
 # Load metadata for images
 with open("parsed_birds/parsing_metadata.json", 'r') as f:
     parsing_metadata = json.load(f)
+# Search input
+# Quick description of the app, what you can do, and how to use it
+# set the app to wide
 
 st.title("Bird Search")
 st.logo("Pinecone-Primary-Logo-Black.png")
-# Search input
-# Quick description of the app, what you can do, and how to use it
-
 
 
 st.markdown("""
