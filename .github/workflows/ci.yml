@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -25,9 +25,17 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install pytest
 
       - name: Byte-compile sources
         run: python -m compileall -q .
+
+      - name: Run tests
+        # test_app.py drives the Streamlit app against a live Pinecone index
+        # (via query_db + st.secrets["pinecone_api_key"]), so it needs a real
+        # API key and a populated index and can't run in CI. The deterministic
+        # unit tests (metrics + app setup) do run here.
+        run: pytest tests/ --ignore=tests/test_app.py -v
 
   audit:
     runs-on: ubuntu-latest
